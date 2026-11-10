@@ -1,19 +1,37 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>예희범절 프롬프트 보관함</title><style>body{background:#faf9f6;color:#292b28;font-family:system-ui,-apple-system,sans-serif;margin:0;line-height:1.7}.wrap{max-width:720px;padding:40px 20px;margin:auto}h1{font-size:34px;margin:12px 0}p{color:#676b63}.card{background:white;border:1px solid #e5e8e1;border-radius:18px;padding:24px;margin:22px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;font-size:14px;background:#f6f7f3;border-radius:12px;padding:16px;max-height:320px;overflow:auto}button{border:0;background:#536351;color:white;border-radius:10px;padding:13px 20px;font-weight:bold;cursor:pointer}.note{font-size:13px;color:#777} .affiliate{margin:28px 0 12px;padding:12px;background:#fff;border:1px solid #e5e8e1;border-radius:14px;overflow:hidden;text-align:center}.affiliate p{margin:0 0 8px}.affiliate script{max-width:100%}\n</style></head><body><main class="wrap"><small>YEHUI · 예희범절</small><h1>프롬프트 보관함</h1><p>블로그에 소개한 AI 프롬프트를 복사해서 사용해 보세요.</p><p class="note">운명의 상대 테스트는 실제 미래를 예측하는 것이 아니라 재미로 즐기는 놀이입니다.</p><div class="card"><h2>01. 나만의 운명의 상대 만들기</h2><pre id="p1">당신은 재미있는 연애 운세를 만들어주는 AI입니다.
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>예희범절 프롬프트 보관함</title><style>body{background:#faf9f6;color:#292b28;font-family:system-ui,-apple-system,sans-serif;margin:0;line-height:1.7}.wrap{max-width:720px;padding:40px 20px;margin:auto}h1{font-size:34px;margin:12px 0}p{color:#676b63}.card{background:white;border:1px solid #e5e8e1;border-radius:18px;padding:24px;margin:22px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;font-size:14px;background:#f6f7f3;border-radius:12px;padding:16px;max-height:320px;overflow:auto}button{border:0;background:#536351;color:white;border-radius:10px;padding:13px 20px;font-weight:bold;cursor:pointer}.note{font-size:13px;color:#777} .affiliate{margin:28px 0 12px;padding:12px;background:#fff;border:1px solid #e5e8e1;border-radius:14px;overflow:hidden;text-align:center}.affiliate p{margin:0 0 8px}.affiliate script{max-width:100%}\n</style></head><body><main class="wrap"><small>YEHUI · 예희범절</small><h1>프롬프트 보관함</h1><p>블로그에 소개한 AI 프롬프트를 복사해서 사용해 보세요.</p><p class="note">운명의 상대 테스트는 실제 미래를 예측하는 것이 아니라 재미로 즐기는 놀이입니다.</p><div class="card"><h2>01. 나만의 운명의 상대 만들기</h2><pre id="p1">당신은 일본의 '운명의 상대 몽타주'처럼 결과를 보여주는 재미있는 가상 연애운 테스트 진행자입니다.
 
-저의 생년월일과 취향을 소재로 가상의 운명의 상대를 설정해 주세요. 실제 미래 예측이 아니라 창작 놀이입니다.
+제 생년월일을 바탕으로 가상의 성격 궁합을 설정하고, 그에 어울리는 '운명의 상대'의 얼굴과 만남의 이야기를 만들어 주세요. 이 결과는 실제 운명이나 관상학적 사실을 예측하는 것이 아닌 창작 놀이입니다.
 
-1. 성격과 연애 스타일
-2. 눈썹, 눈매, 코, 입술, 얼굴형 등 외모 특징
-3. 헤어스타일과 전체적인 분위기
-4. 어디서 만날지에 관한 이야기
-5. 처음 만났을 때 서로에게 느낄 인상
-6. 연인이 된다면 어떤 관계일지
+[결과를 정하는 규칙]
+- 생년월일 8자리(YYYYMMDD)의 숫자를 모두 더해 합계 S를 구하세요.
+- 성격 유형 번호는 (S를 6으로 나눈 나머지)+1입니다.
+- 만남 유형 번호는 (생일의 일 DD를 6으로 나눈 나머지)+1입니다.
+- 외모 유형 번호는 (출생 연도 YYYY를 6으로 나눈 나머지)+1입니다.
+- 아래 각 유형표를 사용해 선택하세요. 같은 생년월일과 상대 성별이라면 기본 유형과 핵심 외모 특징은 항상 동일하게 유지하세요.
+- 입력하지 않은 실제 성격이나 취향을 알고 있는 것처럼 말하지 마세요.
 
-마지막에는 묘사한 특징을 반영한 현실적인 정면 인물 사진을 생성해 주세요. 이미지 생성이 불가능하면 이미지 생성용 프롬프트를 만들어 주세요.
+성격 유형 1~6:
+1 차분하고 세심한 사람 / 2 독립적이고 솔직한 사람 / 3 유머 있고 사교적인 사람 / 4 지적이고 관찰력이 좋은 사람 / 5 다정하고 꾸준한 사람 / 6 호기심 많고 모험적인 사람
 
-생년월일: [입력]
-선호하는 상대의 성별: [입력]
-원하는 분위기(선택): [입력]</pre><button onclick="cp('p1',this)">프롬프트 복사하기</button></div><div class="card"><h2>02. 일본 몽타주 AI 실사화</h2><p>일본 운명의 상대 테스트 결과를 캡처해서 ChatGPT에 첨부해 주세요.</p><pre id="p2">첨부한 이미지는 일본의 운명의 상대 테스트에서 나온 몽타주입니다.
+만남 유형 1~6:
+1 서점 또는 도서관 / 2 취미 모임 / 3 친구의 소개 / 4 여행 중 우연한 만남 / 5 공연 또는 전시 / 6 일상적인 동네 공간
+
+외모 유형 1~6:
+1 둥근 눈과 부드러운 눈썹, 계란형 얼굴 / 2 가늘고 긴 눈매와 선명한 눈썹, 갸름한 얼굴 / 3 또렷한 눈과 직선형 눈썹, 각진 턱선 / 4 웃는 눈과 완만한 아치형 눈썹, 둥근 얼굴 / 5 깊은 눈매와 진한 눈썹, 긴 얼굴 / 6 올라간 눈꼬리와 가는 눈썹, 하트형 얼굴
+
+[결과 출력]
+1. 계산된 세 가지 유형 번호를 짧게 표시
+2. 운명의 상대의 성격과 연애 스타일
+3. 눈썹·눈매·코·입술·얼굴형·헤어스타일 등 자세한 몽타주 설명 (외모 유형의 핵심 특징은 반드시 유지하고 나머지는 창의적으로 보완)
+4. 어디서 어떻게 만나고 친해지는지 짧은 이야기
+5. 서로의 첫인상과 연인이 되었을 때의 관계
+
+마지막에는 설명을 바탕으로 현실적인 성인 인물의 정면 사진을 생성해 주세요. 특정 연예인을 닮게 만들거나 무조건 미화하지 말고 자연스러운 얼굴로 표현해 주세요. 이미지 생성이 불가능하면 이미지 생성용 상세 프롬프트를 제공해 주세요.
+
+결과를 제공하기 전에 생년월일과 운명의 상대 성별이 모두 입력되었는지 확인하고, 빠진 항목만 질문해 주세요.
+
+생년월일(YYYY.MM.DD): [입력]
+운명의 상대 성별(남성/여성/상관없음): [입력]</pre><button onclick="cp('p1',this)">프롬프트 복사하기</button></div><div class="card"><h2>02. 일본 몽타주 AI 실사화</h2><p>일본 운명의 상대 테스트 결과를 캡처해서 ChatGPT에 첨부해 주세요.</p><pre id="p2">첨부한 이미지는 일본의 운명의 상대 테스트에서 나온 몽타주입니다.
 
 이미지에 일본어 외모 설명이 있다면 먼저 한국어로 해석해 주세요. 이 설명과 원본 몽타주를 참고해 실제 사람 같은 자연스러운 인물 사진을 생성해 주세요.
 
